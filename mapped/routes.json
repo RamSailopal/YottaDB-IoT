@@ -1,0 +1,12 @@
+[
+      {
+        "uri": "/api/temp",
+        "method": "GET",
+        "handler": "temp^myRestAPIs"
+      },
+      {
+        "uri": "/api/humid",
+        "method": "GET",
+        "handler": "humid^myRestAPIs"
+      },
+]

@@ -1,0 +1,19 @@
+# config file version
+apiVersion: 1
+
+datasources:
+  - name: Temperature
+    type: yesoreyeram-infinity-datasource
+    access: proxy
+    orgId: 1
+    uid: Temperature
+    url: http://yottamgweb:8080/api/temp
+    isDefault: false
+  - name: Humidity
+    type: yesoreyeram-infinity-datasource
+    access: proxy
+    orgId: 1
+    uid: Humidiry
+    url: http://yottamgweb:8080/api/humid
+    isDefault: false
+
