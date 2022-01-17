@@ -40,8 +40,15 @@ services:
    environment:
       - GF_INSTALL_PLUGINS=yesoreyeram-infinity-datasource
 
-networks:
-    yottanet:
+ sensors:
+   image: docker.io/ramb0/yottadb-python-client:latest
+   networks:
+      - yottanet
+   volumes:
+      - ..:/usr/local/YottaDB-IoT
+      - ../sensor-entrypoint:/home/entrypoint
+   entrypoint: /home/entrypoint/entrypoint.sh
+
 
 networks:
     yottanet:

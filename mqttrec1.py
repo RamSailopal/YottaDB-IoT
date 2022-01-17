@@ -2,14 +2,14 @@
 import paho.mqtt.client as mqtt
 import time
 import mg_python
-mg_python.m_set_host(0, "localhost", 7042, "", "")
+mg_python.m_set_host(0, "yottamgweb", 7042, "", "")
 def on_message(client, userdata, message):
     print("received message: " ,str(message.payload.decode("utf-8")))
     print("Writing humidity message to YottaDB")
     mess=str(message.payload.decode("utf-8")).split("#")
     mg_python.m_set(0, "^SENSORS", "humid", str(mess[0]), int(mess[1]))
 
-mqttBroker ="localhost"
+mqttBroker ="mqtt"
 
 client = mqtt.Client("Pi")
 client.connect(mqttBroker) 

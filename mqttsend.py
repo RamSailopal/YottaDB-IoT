@@ -5,7 +5,7 @@ from datetime import timezone
 from datetime import date
 from datetime import datetime
 
-mqttBroker ="127.0.0.1" 
+mqttBroker ="mqtt" 
 
 client = mqtt.Client("Temperature_Inside")
 client.connect(mqttBroker) 
