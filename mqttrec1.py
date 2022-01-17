@@ -11,13 +11,11 @@ def on_message(client, userdata, message):
 
 mqttBroker ="mqtt"
 
-client = mqtt.Client("Pi")
+client = mqtt.Client("Pi1")
 client.connect(mqttBroker) 
 
 client.loop_start()
-
-client.subscribe("yotta/db/humid")
-client.on_message=on_message 
-
-time.sleep(30)
-client.loop_stop()
+while True:
+   client.subscribe("yotta/db/humid")
+   client.on_message=on_message 
+   time.sleep(60)

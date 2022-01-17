@@ -15,9 +15,7 @@ client = mqtt.Client("Pi")
 client.connect(mqttBroker) 
 
 client.loop_start()
-
-client.subscribe("yotta/db/temp")
-client.on_message=on_message 
-
-time.sleep(30)
-client.loop_stop()
+while True:
+   client.subscribe("yotta/db/temp")
+   client.on_message=on_message 
+   time.sleep(60)
