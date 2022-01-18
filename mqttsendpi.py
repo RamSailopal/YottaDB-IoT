@@ -8,21 +8,10 @@ from datetime import timezone
 from datetime import date
 from datetime import datetime
 
-if (len(sys.argv)<2):
-   print("You must pass the address of the mqtt server")
-   sys.exit(1)
+mqttBroker = "test.mosquitto.org" 
 
-if (sys.argv[1]==""):
-   print("You must pass the address of the mqtt server")
-   sys.exit(1)
-
-if (len(sys.argv)<3):
-   port=1883
-
-mqttBroker = sys.argv[1] 
-
-client = mqtt.Client("Sensor",transport='websockets')
-client.connect(mqttBroker,port) 
+client = mqtt.Client("Sensor")
+client.connect(mqttBroker) 
 
 while True:
     today = datetime.now()

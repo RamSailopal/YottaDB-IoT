@@ -9,7 +9,7 @@ def on_message(client, userdata, message):
     mess=str(message.payload.decode("utf-8")).split("#")
     mg_python.m_set(0, "^SENSORS", "temp", str(mess[0]), int(mess[1]))
 
-mqttBroker ="mqtt"
+mqttBroker ="test.mosquitto.org"
 
 client = mqtt.Client("Pi")
 client.connect(mqttBroker) 

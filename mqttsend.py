@@ -7,16 +7,8 @@ from datetime import timezone
 from datetime import date
 from datetime import datetime
 
-if (len(sys.argv)<2):
-   print("You must pass the address of the mqtt server")
-   sys.exit(1)
 
-if (sys.argv[1]==""):
-   print("You must pass the address of the mqtt server")
-   sys.exit(1)
-
-
-mqttBroker = sys.argv[1] 
+mqttBroker = "test.mosquitto.org"
 
 client = mqtt.Client("Sensor")
 client.connect(mqttBroker) 
