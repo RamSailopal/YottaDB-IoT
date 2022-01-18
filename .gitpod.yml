@@ -2,5 +2,5 @@ tasks:
   - init: |
       echo 'TODO: build project'
     command: |
-      python3 -m pip install paho-mqtt && cd compose && docker-compose up
+      python3 -m pip install paho-mqtt && cd Docker && docker-compose up
 
