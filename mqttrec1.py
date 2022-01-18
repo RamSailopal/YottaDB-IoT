@@ -7,7 +7,7 @@ def on_message(client, userdata, message):
     print("received message: " ,str(message.payload.decode("utf-8")))
     print("Writing humidity message to YottaDB")
     mess=str(message.payload.decode("utf-8")).split("#")
-    mg_python.m_set(0, "^SENSORS", "humid", str(mess[0]), int(mess[1]))
+    mg_python.m_set(0, "^SENSORS", "humid", str(mess[0]), float(mess[1]))
 
 mqttBroker ="test.mosquitto.org"
 
