@@ -11,7 +11,7 @@ def on_message(client, userdata, message):
 
 mqttBroker ="test.mosquitto.org"
 
-client = mqtt.Client("Pi")
+client = mqtt.Client()
 client.connect(mqttBroker) 
 
 client.loop_start()
