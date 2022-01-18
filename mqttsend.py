@@ -22,9 +22,9 @@ while True:
     min = today.strftime("%M")
     sec = today.strftime("%S")
     timestamp=today.strftime("%Y-%m-%dT%H:%M:%S.000Z")
-    client.publish("yotta/db/temp", str(timestamp) + "#7")
+    client.publish("yotta/db/temp", str(timestamp) + "#7.0")
     print("Just published " + str(7) + " to topic yotta/db/temp")
-    client.publish("yotta/db/humid", str(timestamp) + "#23")
+    client.publish("yotta/db/humid", str(timestamp) + "#67.0")
     print("Just published " + str(23) + " to topic yotta/db/humid")
  
     time.sleep(60)
