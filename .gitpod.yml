@@ -2,5 +2,5 @@ tasks:
   - init: |
       echo 'TODO: build project'
     command: |
-      python3 -m pip install paho-mqtt && cd Docker && docker-compose up
+      export glbviewadd="https://8001-${GITPOD_WORKSPACE_URL}" && python3 -m pip install paho-mqtt && cd Docker && docker-compose up
 
