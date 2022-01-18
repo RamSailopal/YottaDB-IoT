@@ -22,14 +22,6 @@ services:
       - ydb_gbldir=/opt/yottadb/yottadb.gld
    entrypoint: /home/entrypoint/entrypoint.sh
 
- mqtt:
-   image: docker.io/toke/mosquitto
-   ports:
-      - 1883:1883
-      - 9001:9001
-   networks:
-      - yottanet
-
  grafana:
    image: docker.io/grafana/grafana:latest
    volumes:
