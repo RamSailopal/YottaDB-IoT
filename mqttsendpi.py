@@ -21,7 +21,7 @@ if (len(sys.argv)<3):
 
 mqttBroker = sys.argv[1] 
 
-client = mqtt.Client("Sensor")
+client = mqtt.Client("Sensor",transport='websockets')
 client.connect(mqttBroker,port) 
 
 while True:

@@ -26,6 +26,7 @@ services:
    image: docker.io/toke/mosquitto
    ports:
       - 1883:1883
+      - 9001:9001
    networks:
       - yottanet
 
