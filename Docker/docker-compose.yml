@@ -40,8 +40,6 @@ services:
    volumes:
       - ..:/usr/local/YottaDB-IoT
       - ../sensor-entrypoint:/home/entrypoint
-   environment:
-      - NOPI=$NOPI
    entrypoint: /home/entrypoint/entrypoint.sh
 
 
