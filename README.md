@@ -8,4 +8,4 @@ As an example, placing YottaDB in a relevant Internet of Things (IoT) setting, a
 
 The YottaDB mg-webserver is then used to present data from YottaDB as JSON based API endpoints. These endpoints are then "consumed" by Grafana via the infinity plugin.
 
-![Alt text](yottadb-iot-arch.jpg?raw=true "Architecture")
+![Alt text](yottadb-iot-arch.png?raw=true "Architecture")
