@@ -86,7 +86,7 @@ Install the neccesary packages for the sensor:
     export glbviewadd="<addressofserverrunningdocker>"
     docker-compose up
     
-   Global View - http://<addressofserverrunningdocker>:8001/SENSORS
+   Global View - http://addressofserverrunningdocker:8001/SENSORS
     
    API view - http://addressofserverrunningdocker:8080/api/temp
     
