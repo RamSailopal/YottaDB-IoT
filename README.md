@@ -62,7 +62,13 @@ Install the neccesary packages for the sensor:
  
  This shows the key value data in JSON format presented as a REST API endpoint
  
- 8) Open a new tab as below, substituting the unique Gitpod address (ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io) for the one you are running
+ 8) Open a new tab and naviagate to https://3001-ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io substituting the unique Gitpod address (ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io) for the one you are running.
+
+ 9) Log in with username **admin** and password **admin**
+ 
+ 10) Change the admin password when prompted
+ 
+ 11) On the left hand side, click on **Manage**, **dashboards**, **Sensors**
  
  ![Alt text](sensors-graf.JPG?raw=true "Grafana View")
  
