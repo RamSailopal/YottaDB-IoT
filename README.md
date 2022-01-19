@@ -52,6 +52,6 @@ Install the neccesary packages for the sensor:
     
  6) Open a new tab as below, substituting the unique Gitpod address for the one you are running
 
-
+ ![Alt text](sensor-glob.JPG?raw=true "Global View")
 
     
