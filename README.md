@@ -50,8 +50,22 @@ Install the neccesary packages for the sensor:
     cd /sr/local/YottaDB-IoT
     python3 mqttsendpi.py
     
- 6) Open a new tab as below, substituting the unique Gitpod address for the one you are running
+ 6) Open a new tab as below, substituting the unique Gitpod address (ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io) for the one you are running
 
  ![Alt text](sensor-glob.JPG?raw=true "Global View")
+ 
+ This shows the key value data as written to YottaDB in time series form
+ 
+ 7) Open a new tab as below, substituting the unique Gitpod address (ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io) for the one you are running
+ 
+ ![Alt text](sensor-api.JPG?raw=true "API View")
+ 
+ This shows the key value data in JSON format presented as a REST API endpoint
+ 
+ 8) Open a new tab as below, substituting the unique Gitpod address (ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io) for the one you are running
+ 
+ ![Alt text](sensor-graf.JPG?raw=true "Grafana View")
+ 
+ This shows the API endpoint data consumed by the Grafana Infinity plugin and presented in graphical format.
 
     
