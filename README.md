@@ -22,8 +22,8 @@ https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-ras
 
 Install git:
 
-   sudo apt-get update
-   sudo apt-get install -y git
+    sudo apt-get update
+    sudo apt-get install -y git
 
 Clone the repo:
 
