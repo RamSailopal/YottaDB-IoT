@@ -64,7 +64,7 @@ Install the neccesary packages for the sensor:
  
  8) Open a new tab as below, substituting the unique Gitpod address (ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io) for the one you are running
  
- ![Alt text](sensor-graf.JPG?raw=true "Grafana View")
+ ![Alt text](sensors-graf.JPG?raw=true "Grafana View")
  
  This shows the API endpoint data consumed by the Grafana Infinity plugin and presented in graphical format.
 
