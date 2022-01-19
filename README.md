@@ -14,6 +14,8 @@ The YottaDB mg-webserver is then used to present data from YottaDB as JSON based
 
 # Raspberry Pi
 
+You can run this demo without a Raspberry Pi using dummy step. If you don't have a Raspberry Pi or equivalent hardware, skip this step.
+
 Connect the DHT11 (D11) sensor to your Raspberry Pi using the following guide:
 
 https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/
@@ -35,4 +37,21 @@ Install the neccesary packages for the sensor:
     
  # Gitpod
    
-   
+1) Create a free/paid Gitpod account - https://www.gitpod.io/
+2) Log into the account
+3) Open a new browser tab and add **gitpod.io/#https://github.com/RamSailopal/YottaDB-IoT** to the address - This will create a new Gitpod cloud instance.
+4) Let the containers fully load
+5) Without a Raspberry Pi, open a new terminal and run:
+
+    python3 mqttsend.py
+    
+   With a Raspberry Pi, go to your Pi terminal and:
+    
+    cd /sr/local/YottaDB-IoT
+    python3 mqttsendpi.py
+    
+ 6) Open a new tab as below, substituting the unique Gitpod address for the one you are running
+
+
+
+    
