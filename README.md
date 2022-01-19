@@ -90,7 +90,7 @@ Install the neccesary packages for the sensor:
     
    API view - **http://<addressofserverrunningdocker>:8080/api/temp**
     
-              **http://<addressofserverrunningdocker>:8080/api/humid**
+   **http://<addressofserverrunningdocker>:8080/api/humid**
     
    Grafana -  **http://<addressofserverrunningdocker>:3001**
    
