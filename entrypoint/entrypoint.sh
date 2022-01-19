@@ -1,4 +1,6 @@
 #!/bin/bash
+apt-get install -y python3
+ln -s /usr/bin/python3 /usr/bin/python
 export ydb_gbldir=/opt/yottadb/yottadb.gld
 export ydb_dir=/opt/yottadb
 export ydb_rel=r1.30_x86_64
