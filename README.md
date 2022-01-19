@@ -78,5 +78,20 @@ Install the neccesary packages for the sensor:
  ![Alt text](sensors-graf.JPG?raw=true "Grafana View")
  
  This shows the API endpoint data consumed by the Grafana Infinity plugin and presented in graphical format.
+ 
+ # Using docker-compose on Prem
+ 
+    git clone https://github.com/RamSailopal/YottaDB-IoT.git
+    cd YottaDB-IoT/Docker
+    export glbviewadd="<addressofserverrunningdocker>"
+    docker-compose up
+    
+   Global View - **http://<addressofserverrunningdocker>:8001/SENSORS**
+   API view - **http://<addressofserverrunningdocker>:8080/api/temp**
+              **http://<addressofserverrunningdocker>:8080/api/humid**
+   Grafana -  **http://<addressofserverrunningdocker>:3001**
+   
+   Additional steps are the same as for Gitpod.
+   
 
     
