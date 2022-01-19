@@ -45,10 +45,14 @@ Install the neccesary packages for the sensor:
 
     python3 mqttsend.py
     
+   This will send dummy data to two public mqtt broker topics, **yotta/db/humid** and **yotta/db/temp** 
+    
    With a Raspberry Pi, go to your Pi terminal and:
     
     cd /sr/local/YottaDB-IoT
     python3 mqttsendpi.py
+    
+   This will send actual sensor data to two public mqtt broker topics, **yotta/db/humid** and **yotta/db/temp**
     
  6) Open a new tab as below, substituting the unique Gitpod address (ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io) for the one you are running
 
