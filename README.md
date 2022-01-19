@@ -60,7 +60,7 @@ Install the neccesary packages for the sensor:
  
  ![Alt text](sensor-api.JPG?raw=true "API View")
  
- This shows the key value data in JSON format presented as a REST API endpoint
+ This shows the key value data in JSON format presented as a REST API endpoint (more details - https://github.com/RamSailopal/YottaDB-Demo)
  
  8) Open a new tab and naviagate to https://3001-ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io substituting the unique Gitpod address (ramsailopal-yottadbiot-pz86r4t05uu.ws-eu27.gitpod.io) for the one you are running.
 
