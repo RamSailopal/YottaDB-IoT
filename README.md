@@ -25,12 +25,12 @@ Install git:
 
 Clone the repo:
 
-   cd /usr/local
-   git clone https://github.com/RamSailopal/YottaDB-IoT.git
+    cd /usr/local
+    git clone https://github.com/RamSailopal/YottaDB-IoT.git
    
 Install the neccesary packages for the sensor:
 
-   cd /usr/local/YottaDB-IoT
-   ./installpi.sh
+    cd /usr/local/YottaDB-IoT
+    ./installpi.sh
    
    
