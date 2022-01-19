@@ -12,7 +12,7 @@ The YottaDB mg-webserver is then used to present data from YottaDB as JSON based
 
 # Installation
 
-Raspberry Pi
+# Raspberry Pi
 
 Connect the DHT11 (D11) sensor to your Raspberry Pi using the following guide:
 
@@ -31,6 +31,8 @@ Clone the repo:
 Install the neccesary packages for the sensor:
 
     cd /usr/local/YottaDB-IoT
-    ./installpi.sh
+    sudo ./installpi.sh
+    
+ # Gitpod
    
    
