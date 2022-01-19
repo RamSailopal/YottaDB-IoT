@@ -9,3 +9,28 @@ As an example, placing YottaDB in a relevant Internet of Things (IoT) setting, a
 The YottaDB mg-webserver is then used to present data from YottaDB as JSON based API endpoints. These endpoints are then "consumed" by Grafana via the infinity plugin.
 
 ![Alt text](yottadb.iot-arch.png?raw=true "Architecture")
+
+# Installation
+
+Raspberry Pi
+
+Connect the DHT11 (D11) sensor to your Raspberry Pi using the following guide:
+
+https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/
+
+Install git:
+
+   sudo apt-get update
+   sudo apt-get install -y git
+
+Clone the repo:
+
+   cd /usr/local
+   git clone https://github.com/RamSailopal/YottaDB-IoT.git
+   
+Install the neccesary packages for the sensor:
+
+   cd /usr/local/YottaDB-IoT
+   ./installpi.sh
+   
+   
