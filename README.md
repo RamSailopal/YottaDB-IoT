@@ -92,7 +92,7 @@ Install the neccesary packages for the sensor:
     
    http://addressofserverrunningdocker:8080/api/humid
     
-   Grafana -  http://<addressofserverrunningdocker>:3001
+   Grafana -  http://addressofserverrunningdocker:3001
    
    Additional steps are the same as for Gitpod.
    
