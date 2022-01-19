@@ -14,7 +14,7 @@ The YottaDB mg-webserver is then used to present data from YottaDB as JSON based
 
 # Raspberry Pi
 
-You can run this demo without a Raspberry Pi using dummy step. If you don't have a Raspberry Pi or equivalent hardware, skip this step.
+You can run this demo without a Raspberry Pi using dummy sensor data. If you don't have a Raspberry Pi or equivalent hardware, skip this step.
 
 Connect the DHT11 (D11) sensor to your Raspberry Pi using the following guide:
 
